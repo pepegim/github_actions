@@ -16,3 +16,4 @@ jobs:
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
       - run: echo "Esto lo he escrito yo."
+      - run: echo "Despues de borrar el branch patch 2, quiero hacer un pull a main para que se quede como antes del merge con el fallido fierro pybase que ya he borrado."
